@@ -22,14 +22,14 @@ Just a Raspberry Pi Pico, a small PCB, solder a few pins — and you're ready.
   **On-the-Fly Quick Disk mode** → a directory on internal Flash or SD behaves as a Quick Disk.
 
 - **RAM Disk Emulator**  
-  Applications that expect a RAM disk can use the emulated version seamlessly.
+  RAM disks of various types can be emulated.
 
 - **Minimal Hardware Required**  
-  A Raspberry Pi Pico soldered to a small PCB is enough.  
+  A Raspberry Pi Pico soldered to a small PCB is enough to start.  
   Micro SD slot is optional and will be used by firmware if present.
 
 - **Highly Configurable**  
-  - One shared firmware for all boards  
+  - One shared firmware base for all boards  
   - Editable configuration text file
   - Multiple virtual devices on user-defined ports
 
@@ -42,11 +42,9 @@ Just a Raspberry Pi Pico, a small PCB, solder a few pins — and you're ready.
 | **Frugal Board** | Pico soldered directly to PCB — internal flash used for storage. MicroSD optional. | Anyone wanting simplicity and lowest cost |
 | **Deluxe Board** | Adds level shifters, microSD slot, I²S sound card, and optional Pico-W Wi-Fi | Power users / tinkerers |
 
-Both boards use the **same firmware**.
-
 ---
 
-## 📂 Repository Structure
+## 📂 MZPico Repositories
 
 | Repository | Purpose |
 |------------|---------|
@@ -85,8 +83,8 @@ If you can solder a Raspberry Pi Pico to a PCB,
 
 ## ✅ Project Status
 
-- Hardware prototypes: **working**
-- Firmware: **actively developed**
+- Hardware designs: **working**
+- Firmware: **actively developed** *(working with limitations)*
 - Documentation: **minimal but growing** *(inside firmware repo)*
 
 Contributions are welcome — hardware, firmware, documentation, testing.
